@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #a3a5ae;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.feature {
+  max-width: 40rem;
+  width: 84%;
+  margin: 8rem 0;
+}
+.feature__top {
+  margin-bottom: 6rem;
+}
+.feature__heading {
+  font-size: 2.4rem;
+  font-weight: 200;
+  line-height: 1.5em;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4c4e61;
+}
+.feature__heading strong {
+  font-weight: 600;
+}
+.feature__paragraph {
+  line-height: 1.5em;
+  text-align: center;
+  color: #a3a5ae;
+}
+.feature__paragraph strong {
+  text-transform: capitalize;
+}
+.feature__card {
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 8px 15px 4px rgba(0, 0, 0, 0.15);
+}
+.feature__card.cyan {
+  border-top: 0.4rem solid #45d3d3;
+}
+.feature__card.red {
+  border-top: 0.4rem solid #ea5353;
+  margin-bottom: 2.5rem;
+}
+.feature__card.orange {
+  border-top: 0.4rem solid #fcaf4a;
+}
+.feature__card.blue {
+  border-top: 0.4rem solid #549ef2;
+}
+.feature__center {
+  margin: 2.5rem 0;
+}
+.feature__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4c4e61;
+  margin-bottom: 1rem;
+}
+.feature__description {
+  line-height: 1.8em;
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+.feature__img img {
+  display: block;
+  margin-left: auto;
+}
+
+@media (min-width: 900px) {
+  .feature {
+    max-width: none;
+    min-width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature__heading {
+    font-size: 3.5rem;
+    max-width: 43rem;
+    margin: 0 auto 2rem auto;
+  }
+  .feature__paragraph {
+    max-width: 50rem;
+  }
+  .feature__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature__card {
+    max-width: 29rem;
+    flex: 1;
+  }
+  .feature__center {
+    margin: 0 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
